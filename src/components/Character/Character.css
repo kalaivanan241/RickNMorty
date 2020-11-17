@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  text-align: center;
+}
+.card {
+  background: aquamarine;
+  border-radius: 35px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 24px 0px;
+  cursor: pointer;
+}

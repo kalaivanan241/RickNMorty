@@ -1,6 +1,7 @@
 import React from 'react'
-import LabelAndText from './LabelAndText'
-import Image from "./Image"
+import LabelAndText from '../LabelAndText'
+import Image from "../Image"
+import "./Character.css"
 
 function Character({character, onCharacterSelect}) {
     const {

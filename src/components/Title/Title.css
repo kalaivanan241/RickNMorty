@@ -1,0 +1,7 @@
+.title {
+  color: aquamarine;
+}
+
+.title > h1 {
+  padding: 5px;
+}

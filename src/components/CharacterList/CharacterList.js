@@ -1,5 +1,6 @@
 import React from 'react'
-import Character from './Character'
+import Character from '../Character'
+import "./CharacterList.css"
 
 function CharacterList({
     characters, onCharacterSelect

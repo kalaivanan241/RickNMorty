@@ -1,11 +1,17 @@
 import './App.css';
-import HomePage from './components/HomePage';
+import HomePage from './components/HomePage/index';
+import NotFound from "./components/NotFound"
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App home-background">
-        <HomePage>
-        </HomePage>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route component={NotFound} />
+      </Switch>
+    </Router>
     </div>
   );
 }
